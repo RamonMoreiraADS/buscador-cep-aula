@@ -15,7 +15,7 @@ header {
 .form {
   display: flex;
   justify-content: center;
-  gap: 2px;
+  gap: 5px;
 }
 
 button:active {
@@ -31,14 +31,29 @@ body {
   margin: 0;
 }
 
+header {
+  font-size: 36px;
+}
+
+#rua, #bairro, #cidade, #estado, #uf, #regiao, #ddd, #siafi {
+  border: none;
+  background-color: rgb(190, 197, 254);
+}
+
 .info {
+  font-size: 18px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  opacity: 0.5;
+  opacity: 0.7;
   flex: 1;
 }
 
 footer {
   background-color: #183249;
+  color: white;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
