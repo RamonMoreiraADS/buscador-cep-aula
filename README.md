@@ -31,16 +31,17 @@ https://viacep.com.br/ws/61652062/json/
 ## Funcionalidades
 - [x] Busca do CEP
 - [x] Limpar dados
-- [ ] Design melhorado
+- [x] Design melhorado
+- [x] Mais informações
 - [ ] Responsividade
-- [ ] Rodapé
+- [x] Rodapé
 
 ### Observações
 > [!NOTE]
 > Projeto feito na disciplina de programação web I do curso ADS do IFCE de Jaguaruana.
 
 > [!IMPORTANT]
-> Alguns CEPs podem não conter todas as informações.
+> Alguns CEPs podem não conter todas as informações. Por exemplo, em ceps que terminam com (-000)
 
 ## Contatos
 
