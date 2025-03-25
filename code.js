@@ -23,6 +23,13 @@ async function getCepInfo() {
     document.querySelector("#bairro").innerHTML = data.bairro;
     document.querySelector("#cidade").innerHTML = data.localidade;
     document.querySelector("#estado").innerHTML = data.estado;
+    document.querySelector("#uf").innerHTML = data.uf;
+    document.querySelector("#regiao").innerHTML = data.regiao;
+    document.querySelector("#ddd").innerHTML = data.ddd;
+    document.querySelector("#siafi").innerHTML = data.siafi;
+
+    document.querySelector(".info").style.border = solid;//testando modificações de css pelo js
+
   }
 
   function clearCep() {
@@ -31,4 +38,10 @@ async function getCepInfo() {
     document.querySelector("#bairro").innerHTML = "";
     document.querySelector("#cidade").innerHTML = "";
     document.querySelector("#estado").innerHTML = "";
+    document.querySelector("#uf").innerHTML = "";
+    document.querySelector("#regiao").innerHTML = "";
+    document.querySelector("#ddd").innerHTML = "";
+    document.querySelector("#siafi").innerHTML = "";
+
+    document.querySelector(".info").style.border = none;//testando modificações de css pelo js
   }
